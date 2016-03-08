@@ -1,0 +1,65 @@
+-- phpMyAdmin SQL Dump
+-- version 3.4.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Sep 04, 2014 at 03:27 PM
+-- Server version: 5.1.73
+-- PHP Version: 5.5.16
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `mem-mgmt-v1`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `mem_cmt_post`
+--
+
+CREATE TABLE IF NOT EXISTS `mem_cmt_post` (
+  `post_id` int(4) NOT NULL AUTO_INCREMENT,
+  `mem_id` int(3) NOT NULL,
+  `userid` varchar(15) NOT NULL,
+  `dt` date DEFAULT NULL,
+  `dtl` text NOT NULL,
+  PRIMARY KEY (`post_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `mem_signup`
+--
+
+CREATE TABLE IF NOT EXISTS `mem_signup` (
+  `mem_id` int(5) NOT NULL AUTO_INCREMENT,
+  `userid` varchar(15) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  `email` varchar(75) NOT NULL,
+  `fname` varchar(50) NOT NULL,
+  `lname` varchar(50) NOT NULL,
+  `add1` varchar(100) NOT NULL,
+  `add2` varchar(100) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `state` varchar(100) NOT NULL,
+  `country` varchar(100) NOT NULL,
+  `zip` varchar(6) NOT NULL,
+  `dtj` datetime NOT NULL,
+  `ip` varchar(16) NOT NULL,
+  `status` char(1) NOT NULL,
+  `dtl` text,
+  `profile_photo` varchar(200) DEFAULT NULL,
+  UNIQUE KEY `mem_id` (`mem_id`),
+  UNIQUE KEY `userid` (`userid`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+
+--
+-- Dumping data for table `mem_signup`
+--
+
+INSERT INTO `mem_signup` (`mem_id`, `userid`, `password`, `email`, `fname`, `lname`, `add1`, `add2`, `city`, `state`, `country`, `zip`, `dtj`, `ip`, `status`, `dtl`, `profile_photo`) VALUES
+(3, 'siteadmin', 'ae2b1fca515949e5d54fb22b8ed95575', 'siteadmin@domain.com', 'site admin', 'admin site', '520', 'A', 'City details', 'state', 'USA', '3456', '2012-03-02 00:00:00', '127.0.0.1', 'B', '', '');

@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Registration</title>
+    <meta content-type: "text/html" charset="utf-8">
+</head>
+
+<body>
+    <h1>Premium Member</h1>
+    <hr>
+
+    <form method="post" action="datashop.php">
+        <table>
+            <tr>
+                <td>User Name：
+                    <input type="text" name="username">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password：
+                    <input type="password" name="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Type Again Passowrd：
+                    <input type="password" name="repassword">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Verification Code：
+                    <input type="text" name="vcode"><img src="datastore.php"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="post">
+                    <input type="reset" value="reset">
+                </td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

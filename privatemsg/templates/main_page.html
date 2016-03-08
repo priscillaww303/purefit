@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welcome to Private Chat System</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<style type="text/css">
+    html,
+    body {
+        height: 100%;
+    }
+    
+    body {
+        background-image: url(./images/fitnesswallpaper.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: bottom;
+    }
+    
+    iframe {
+        background-color: white;
+        opacity: 0.4;
+    }
+</style>
+
+<body>
+    <header>
+        <h2>Chat to Connect!</h2>
+        <a href="../index.html" class="stuts">Back to homepage <span>Pure Fierce</span></a>
+    </header>
+    <div class="clear"></div>
+    <div class="container" id="con1">
+        {form} {avatar}
+    </div>
+    <div class="container" id="con2">
+        <h2>Public Chatting</h2>
+        <div class="chat_messages">
+            {chat}
+        </div>
+        {input}
+    </div>
+
+    <div class="sidebar">
+        <div>
+            <h2>Online Member</h2>
+            <h2>Click to Private Chatting</h2> {online_users}
+        </div>
+        <div>
+            <h2>Latest Members</h2> {profiles}
+        </div>
+    </div>
+
+    <div class="priv_dock_wrap"></div>
+    {priv_js}
+
+</body>
+
+</html>

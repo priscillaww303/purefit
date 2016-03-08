@@ -1,0 +1,30 @@
+table.t1 {width:100%;margin-left:auto; margin-right:auto;text-align:center; } 
+table.t1 td { padding: 0.2em 2ex 0.2em 2ex;FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Verdana,Arial,San-serif; TEXT-DECORATION: none; text-align: justify;  } 
+table.t1 td.body {width:600px;} 
+table.t1 td.topnav {  padding: 4px 10px 4px 20px; font-size: 9pt;text-align:justify; font-family: Verdana, Arial, Helvetica, sans-serif; border-bottom-style: solid; border-bottom-color: red; border-bottom-width: 1px;} 
+table.t1 td.topnav a {TEXT-DECORATION: none;}
+table.t1 th{padding: 4px 10px 4px 20px; font-size: 9pt;color:#ffffff;text-align:center; font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #c0c0c0; }
+table.t1 th.r1{background-color: #0066ff;}
+h3{margin-top: 10px;    margin-bottom: 10px;    color: #000000;    FONT-SIZE: 9pt;font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;background-color: #fafadf;}
+
+table.t1 td.topright { width:100%;valign:top; padding: 0px 10px 4px 2px; font-size: 8pt;text-align:right; font-family: Verdana, Arial, Helvetica, sans-serif; } 
+
+
+table.t1 tr.r1 td { background-color: #f1f1f1; } 
+table.t1 tr.r0 td { background-color: #ffffff; } 
+
+
+table.t2 {width:100%;margin-left:auto; margin-right:auto;text-align:center;} 
+table.t2 td { padding: 0.2em 2ex 0.2em 2ex;FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Verdana,Arial,San-serif; TEXT-DECORATION: none; text-align: justify; width:80px;} 
+table.t2 td.body {  padding: 4px 10px 4px 20px; font-size: 9pt;text-align:justify; font-family: Verdana, Arial, Helvetica, sans-serif; width:100%;} 
+table.t2 th{padding: 4px 10px 4px 20px; font-size: 9pt;color:#ffffff;text-align:center; font-family: Verdana, Arial, Helvetica, sans-serif;background-color: #c0c0c0;}
+
+table.t2 tr.r1 td { background-color: #f1f1f1; } 
+table.t2 tr.r0 td { background-color: #ffffff; } 
+
+
+
+
+
+
+body { margin-top: 0.0em;background-color: #ffffff;  text-align: center;}
